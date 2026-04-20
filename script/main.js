@@ -258,7 +258,7 @@ const animationTimeline = () => {
       },
       "party",
     )
-    .to({}, 10, {}) // Pause for 5 seconds to extend slideshow duration
+    .to({}, 30, {}) // Pause for 5 seconds to extend slideshow duration
     .staggerTo(
       ".eight svg",
       1.5,
